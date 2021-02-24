@@ -74,20 +74,17 @@ img:nth-child(5){
 }
 
 
-
-section{
-    padding:40px;
-    margin-left:16%;
-    float:left;
-    
-}
+div {width:50%;margin:auto;float:left;}
 img:nth-child(6){
-   padding:20px; 
+  width:50%;
+    float:left;
 }
-section>p{word-wrap: normal;display:inline-block;}
-section>button{
+div>h1{float:left;}
+div>p{float:left;position:relative;}
+div>button{
     background-color:black;
     width:350ms;
+    display: block;
 }
 
 footer>img{
